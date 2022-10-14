@@ -1,0 +1,13 @@
+button {
+  cursor: pointer;
+  font-family: $font-body;
+  font-weight: 700;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+  }
+}

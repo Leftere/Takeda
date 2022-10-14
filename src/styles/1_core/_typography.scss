@@ -1,0 +1,36 @@
+h1 {
+  font-size: 2.5em;
+  line-height: 1;
+
+  @media (min-width: 400px) {
+    font-size: 2.55em;
+  }
+
+  @media (min-width: 576px) {
+    font-size: 2.85em;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 3.125em;
+    line-height: 1.14;
+  }
+}
+
+h2 {
+  font-size: 1.42em;
+  font-weight: 600;
+  line-height: 1.25;
+
+  @media (min-width: 576px) {
+    font-size: 1.42em;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 3.6rem;
+    line-height: 1.11;
+  }
+}
+
+sup {
+  font-size: 0.5em;
+}
